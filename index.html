@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fast Fix Automotive - Mobile Mechanic & Breakdown Services</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="css/main.css">
+  
+</head>
+<body class="font-sans bg-gray-100">
+    <!-- Navigation -->
+    <nav class="fixed w-full bg-gray-900 text-white shadow-lg z-50">
+        <div class="container mx-auto px-4 sm:px-6 py-3">
+            <div class="flex justify-between items-center">
+                <div class="text-xl sm:text-2xl font-bold">
+                    <span class="text-amber-500">Fast Fix</span> Automotive
+                </div>
+                <div class="hidden md:flex space-x-6 lg:space-x-8">
+                    <a href="#home" class="nav-link active-nav">Home</a>
+                    <a href="#about" class="nav-link">About</a>
+                    <a href="#services" class="nav-link">Services</a>
+                    <a href="#reviews" class="nav-link">Reviews</a>
+                    <a href="#contact" class="nav-link">Contact</a>
+                </div>
+                <div class="md:hidden">
+                    <button id="mobile-menu-button" class="text-white focus:outline-none">
+                        <i class="fas fa-bars text-2xl"></i>
+                    </button>
+                </div>
+            </div>
+            <!-- Mobile menu -->
+            <div id="mobile-menu" class="hidden md:hidden mt-4 pb-4">
+                <a href="#home" class="block py-2 px-4 hover:bg-gray-800 rounded">Home</a>
+                <a href="#about" class="block py-2 px-4 hover:bg-gray-800 rounded">About</a>
+                <a href="#services" class="block py-2 px-4 hover:bg-gray-800 rounded">Services</a>
+                <a href="#reviews" class="block py-2 px-4 hover:bg-gray-800 rounded">Reviews</a>
+                <a href="#contact" class="block py-2 px-4 hover:bg-gray-800 rounded">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section flex items-center justify-center text-white">
+        <div class="container mx-auto px-4 sm:px-6 text-center animate-fadeInUp">
+            <h1 class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-4 sm:mb-6">Fast Fix Automotive</h1>
+            <h2 class="text-xl sm:text-2xl md:text-3xl mb-6 sm:mb-8">Mobile Mechanic And Breakdowns</h2>
+            
+            <div class="max-w-2xl mx-auto bg-black bg-opacity-50 p-6 sm:p-8 rounded-lg">
+                <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 sm:gap-6 mb-6 sm:mb-8">
+                    <div class="flex items-center justify-center">
+                        <i class="fas fa-tools text-amber-500 text-2xl sm:text-3xl mr-2 sm:mr-3"></i>
+                        <span class="text-sm sm:text-base">Experienced Mechanics</span>
+                    </div>
+                    <div class="flex items-center justify-center">
+                        <i class="fas fa-medal text-amber-500 text-2xl sm:text-3xl mr-2 sm:mr-3"></i>
+                        <span class="text-sm sm:text-base">Quality Service</span>
+                    </div>
+                    <div class="flex items-center justify-center">
+                        <i class="fas fa-pound-sign text-amber-500 text-2xl sm:text-3xl mr-2 sm:mr-3"></i>
+                        <span class="text-sm sm:text-base">Affordable Prices</span>
+                    </div>
+                </div>
+                
+                <div class="mt-6 sm:mt-8 flex flex-col sm:flex-row justify-center items-center space-y-4 sm:space-y-0 sm:space-x-4">
+                    <a href="tel:07488339474" class="bg-amber-500 hover:bg-amber-600 text-black font-bold py-2 sm:py-3 px-6 sm:px-8 rounded-full text-sm sm:text-lg transition duration-300">
+                        <i class="fas fa-phone mr-2"></i> 07488 339474
+                    </a>
+                    <a href="#contact" class="bg-transparent border-2 border-white hover:bg-white hover:text-black text-white font-bold py-2 sm:py-3 px-6 sm:px-8 rounded-full text-sm sm:text-lg transition duration-300">
+                        Book Online
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-16 sm:py-20 bg-white">
+        <div class="container mx-auto px-4 sm:px-6">
+            <h2 class="text-2xl sm:text-3xl md:text-4xl font-bold text-center mb-12 sm:mb-16">A Mechanic You Can Trust</h2>
+            
+            <div class="flex flex-col md:flex-row items-center">
+                <div class="md:w-1/2 mb-8 sm:mb-10 md:mb-0 md:pr-8 lg:pr-10">
+                    <img src="https://images.unsplash.com/photo-1583121274602-3e2820c6988f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" 
+                         alt="Mechanic working" 
+                         class="rounded-lg shadow-xl w-full h-auto">
+                </div>
+                <div class="md:w-1/2">
+                    <h3 class="text-xl sm:text-2xl font-bold mb-3 sm:mb-4">Ian's Story</h3>
+                    <p class="text-gray-700 mb-3 sm:mb-4 text-sm sm:text-base">
+                        Ian's journey in automotive repair began at just 16 years old, studying at Bolton College before gaining hands-on experience at Land Rover Bury and Cowley Hill Services.
+                    </p>
+                    <p class="text-gray-700 mb-3 sm:mb-4 text-sm sm:text-base">
+                        Over a year ago, Ian founded Fast Fix Automotive with a vision to provide reliable, mobile mechanic services. What started as a solo operation handling both mechanics and roadside assistance has grown steadily, with plans to expand the team in the near future.
+                    </p>
+                    <p class="text-gray-700 mb-4 sm:mb-6 text-sm sm:text-base">
+                        Our mission is simple: <span class="font-semibold">"We cater for all cars and vans—all makes, models and repairs."</span> No job is too big or too small for our team.
+                    </p>
+                    <a href="#services" class="bg-amber-500 hover:bg-amber-600 text-black font-bold py-2 sm:py-3 px-4 sm:px-6 rounded-full inline-flex items-center transition duration-300 text-sm sm:text-base">
+                        <i class="fas fa-wrench mr-2"></i> FIND OUT MORE
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-16 sm:py-20 bg-gray-100">
+        <div class="container mx-auto px-4 sm:px-6">
+            <h2 class="text-2xl sm:text-3xl md:text-4xl font-bold text-center mb-12 sm:mb-16">Our Services</h2>
+            
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8 mb-12 sm:mb-16">
+                <!-- Service Card 1 -->
+                <div class="service-card bg-white p-6 sm:p-8 rounded-lg shadow-md transition duration-300">
+                    <div class="text-amber-500 text-3xl sm:text-4xl mb-3 sm:mb-4">
+                        <i class="fas fa-car"></i>
+                    </div>
+                    <h3 class="text-lg sm:text-xl font-bold mb-2 sm:mb-3">Vehicle Maintenance</h3>
+                    <p class="text-gray-700 text-sm sm:text-base">
+                        Full and small services for both petrol & diesel vehicles. Keep your car running smoothly with our comprehensive maintenance packages.
+                    </p>
+                </div>
+                
+                <!-- Service Card 2 -->
+                <div class="service-card bg-white p-6 sm:p-8 rounded-lg shadow-md transition duration-300">
+                    <div class="text-amber-500 text-3xl sm:text-4xl mb-3 sm:mb-4">
+                        <i class="fas fa-battery-full"></i>
+                    </div>
+                    <h3 class="text-lg sm:text-xl font-bold mb-2 sm:mb-3">Battery Services</h3>
+                    <p class="text-gray-700 text-sm sm:text-base">
+                        Battery checks, replacements, and jump starts. We'll ensure your vehicle starts reliably in all weather conditions.
+                    </p>
+                </div>
+                
+                <!-- Service Card 3 -->
+                <div class="service-card bg-white p-6 sm:p-8 rounded-lg shadow-md transition duration-300">
+                    <div class="text-amber-500 text-3xl sm:text-4xl mb-3 sm:mb-4">
+                        <i class="fas fa-oil-can"></i>
+                    </div>
+                    <h3 class="text-lg sm:text-xl font-bold mb-2 sm:mb-3">Oil & Brake Checks</h3>
+                    <p class="text-gray-700 text-sm sm:text-base">
+                        Oil refills, replacements, and comprehensive brake inspections. Essential services to keep you safe on the road.
+                    </p>
+                </div>
+                
+                <!-- Service Card 4 -->
+                <div class="service-card bg-white p-6 sm:p-8 rounded-lg shadow-md transition duration-300">
+                    <div class="text-amber-500 text-3xl sm:text-4xl mb-3 sm:mb-4">
+                        <i class="fas fa-road"></i>
+                    </div>
+                    <h3 class="text-lg sm:text-xl font-bold mb-2 sm:mb-3">Breakdown Services</h3>
+                    <p class="text-gray-700 text-sm sm:text-base">
+                        24/7 roadside assistance when you need it most. We'll get you back on the road quickly and safely.
+                    </p>
+                </div>
+                
+                <!-- Service Card 5 -->
+                <div class="service-card bg-white p-6 sm:p-8 rounded-lg shadow-md transition duration-300">
+                    <div class="text-amber-500 text-3xl sm:text-4xl mb-3 sm:mb-4">
+                        <i class="fas fa-truck-pickup"></i>
+                    </div>
+                    <h3 class="text-lg sm:text-xl font-bold mb-2 sm:mb-3">Tow Truck</h3>
+                    <p class="text-gray-700 text-sm sm:text-base">
+                        Vehicle recovery and transportation services. When your car can't be fixed on the spot, we'll get it where it needs to go.
+                    </p>
+                </div>
+                
+                <!-- Service Card 6 -->
+                <div class="service-card bg-white p-6 sm:p-8 rounded-lg shadow-md transition duration-300">
+                    <div class="text-amber-500 text-3xl sm:text-4xl mb-3 sm:mb-4">
+                        <i class="fas fa-cogs"></i>
+                    </div>
+                    <h3 class="text-lg sm:text-xl font-bold mb-2 sm:mb-3">Engine Repairs</h3>
+                    <p class="text-gray-700 text-sm sm:text-base">
+                        Comprehensive engine diagnostics and repairs. From minor fixes to major overhauls, we've got you covered.
+                    </p>
+                </div>
+            </div>
+            
+            <!-- Opening Hours -->
+            <div class="max-w-md mx-auto bg-amber-500 text-black p-6 sm:p-8 rounded-lg shadow-lg">
+                <h3 class="text-xl sm:text-2xl font-bold mb-4 sm:mb-6 text-center">Opening Hours</h3>
+                <div class="space-y-2 sm:space-y-3">
+                    <div class="flex justify-between border-b border-black pb-1 sm:pb-2">
+                        <span class="text-sm sm:text-base">Monday - Friday</span>
+                        <span class="font-bold text-sm sm:text-base">10am – 10pm</span>
+                    </div>
+                    <div class="flex justify-between border-b border-black pb-1 sm:pb-2">
+                        <span class="text-sm sm:text-base">Saturday</span>
+                        <span class="font-bold text-sm sm:text-base">10am – 10pm</span>
+                    </div>
+                    <div class="flex justify-between">
+                        <span class="text-sm sm:text-base">Sunday</span>
+                        <span class="font-bold text-sm sm:text-base">10am – 10pm</span>
+                    </div>
+                </div>
+                <div class="mt-4 sm:mt-6 text-center text-sm sm:text-base">
+                    <p>Emergency breakdown services available 24/7</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reviews Section -->
+    <section id="reviews" class="py-16 sm:py-20 bg-white">
+        <div class="container mx-auto px-4 sm:px-6">
+            <h2 class="text-2xl sm:text-3xl md:text-4xl font-bold text-center mb-12 sm:mb-16">What Our Customers Say</h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6 sm:gap-8">
+                <!-- Review 1 -->
+                <div class="bg-gray-100 p-4 sm:p-6 rounded-lg shadow-md">
+                    <div class="flex items-center mb-3 sm:mb-4">
+                        <div class="text-amber-500 text-lg sm:text-xl mr-2">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                    <p class="text-gray-700 mb-3 sm:mb-4 text-sm sm:text-base">
+                        "Ian came out to fix my car when it broke down on the motorway. He was there within 30 minutes and had me back on the road in no time. Fantastic service!"
+                    </p>
+                    <div class="flex items-center">
+                        <div class="font-bold text-sm sm:text-base">Sarah J.</div>
+                    </div>
+                </div>
+                
+                <!-- Review 2 -->
+                <div class="bg-gray-100 p-4 sm:p-6 rounded-lg shadow-md">
+                    <div class="flex items-center mb-3 sm:mb-4">
+                        <div class="text-amber-500 text-lg sm:text-xl mr-2">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                    <p class="text-gray-700 mb-3 sm:mb-4 text-sm sm:text-base">
+                        "I've used Fast Fix Automotive for all my car servicing needs over the past year. Always reliable, professional, and much more affordable than the main dealers."
+                    </p>
+                    <div class="flex items-center">
+                        <div class="font-bold text-sm sm:text-base">Mark T.</div>
+                    </div>
+                </div>
+                
+                <!-- Review 3 -->
+                <div class="bg-gray-100 p-4 sm:p-6 rounded-lg shadow-md">
+                    <div class="flex items-center mb-3 sm:mb-4">
+                        <div class="text-amber-500 text-lg sm:text-xl mr-2">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                    <p class="text-gray-700 mb-3 sm:mb-4 text-sm sm:text-base">
+                        "Great mobile mechanic service. Ian diagnosed and fixed an electrical issue with my van that two other garages couldn't figure out. Highly recommended!"
+                    </p>
+                    <div class="flex items-center">
+                        <div class="font-bold text-sm sm:text-base">David P.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-16 sm:py-20 bg-gray-900 text-white">
+        <div class="container mx-auto px-4 sm:px-6">
+            <h2 class="text-2xl sm:text-3xl md:text-4xl font-bold text-center mb-12 sm:mb-16">Get in Touch</h2>
+            
+            <div class="flex flex-col lg:flex-row gap-8 sm:gap-10">
+                <div class="lg:w-1/2">
+                    <div class="bg-gray-800 p-6 sm:p-8 rounded-lg shadow-lg mb-6 sm:mb-8">
+                        <h3 class="text-xl sm:text-2xl font-bold mb-4 sm:mb-6 text-amber-500">Contact Information</h3>
+                        
+                        <div class="space-y-3 sm:space-y-4">
+                            <div class="flex items-start">
+                                <i class="fas fa-phone-alt text-amber-500 mt-1 mr-3 sm:mr-4"></i>
+                                <div>
+                                    <h4 class="font-bold text-sm sm:text-base">Phone</h4>
+                                    <a href="tel:07488339474" class="hover:text-amber-500 transition duration-300 text-sm sm:text-base">07488 339474</a>
+                                </div>
+                            </div>
+                            
+                            <div class="flex items-start">
+                                <i class="fas fa-envelope text-amber-500 mt-1 mr-3 sm:mr-4"></i>
+                                <div>
+                                    <h4 class="font-bold text-sm sm:text-base">Email</h4>
+                                    <a href="mailto:fastfixer1@outlook.com" class="hover:text-amber-500 transition duration-300 text-sm sm:text-base">fastfixer1@outlook.com</a>
+                                </div>
+                            </div>
+                            
+                            <div class="flex items-start">
+                                <i class="fas fa-map-marker-alt text-amber-500 mt-1 mr-3 sm:mr-4"></i>
+                                <div>
+                                    <h4 class="font-bold text-sm sm:text-base">Address</h4>
+                                    <p class="text-sm sm:text-base">Fast Fix Automotive<br>St. Helens, WA9 3SJ</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="mt-6 sm:mt-8">
+                            <h4 class="font-bold mb-3 sm:mb-4 text-amber-500 text-sm sm:text-base">Follow Us</h4>
+                            <div class="flex space-x-3 sm:space-x-4">
+                                <a href="#" class="bg-gray-700 hover:bg-blue-600 w-8 h-8 sm:w-10 sm:h-10 rounded-full flex items-center justify-center transition duration-300">
+                                    <i class="fab fa-facebook-f text-sm sm:text-base"></i>
+                                </a>
+                                <a href="#" class="bg-gray-700 hover:bg-pink-600 w-8 h-8 sm:w-10 sm:h-10 rounded-full flex items-center justify-center transition duration-300">
+                                    <i class="fab fa-instagram text-sm sm:text-base"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Contact Form -->
+                    <div class="bg-gray-800 p-6 sm:p-8 rounded-lg shadow-lg">
+                        <h3 class="text-xl sm:text-2xl font-bold mb-4 sm:mb-6 text-amber-500">Send Us a Message</h3>
+                        <form id="contactForm" class="space-y-4 sm:space-y-6">
+                            <div>
+                                <label for="name" class="block text-sm sm:text-base mb-1 sm:mb-2">Name*</label>
+                                <input type="text" id="name" name="name" required 
+                                       class="w-full px-4 py-2 rounded form-input text-sm sm:text-base">
+                            </div>
+                            <div>
+                                <label for="email" class="block text-sm sm:text-base mb-1 sm:mb-2">Email*</label>
+                                <input type="email" id="email" name="email" required 
+                                       class="w-full px-4 py-2 rounded form-input text-sm sm:text-base">
+                            </div>
+                            <div>
+                                <label for="subject" class="block text-sm sm:text-base mb-1 sm:mb-2">Subject</label>
+                                <input type="text" id="subject" name="subject" 
+                                       class="w-full px-4 py-2 rounded form-input text-sm sm:text-base">
+                            </div>
+                            <div>
+                                <label for="message" class="block text-sm sm:text-base mb-1 sm:mb-2">Message*</label>
+                                <textarea id="message" name="message" rows="4" required 
+                                          class="w-full px-4 py-2 rounded form-input text-sm sm:text-base"></textarea>
+                            </div>
+                            <button type="submit" 
+                                    class="bg-amber-500 hover:bg-amber-600 text-black font-bold py-2 sm:py-3 px-6 rounded-full transition duration-300 text-sm sm:text-base">
+                                SEND MESSAGE
+                            </button>
+                        </form>
+                    </div>
+                </div>
+                
+                <div class="lg:w-1/2 mt-6 sm:mt-8 lg:mt-0">
+                    <!-- Google Maps Embed -->
+                    <div class="h-full w-full rounded-lg overflow-hidden shadow-lg">
+                        <iframe 
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2388.135043116843!2d-2.736923923194199!3d53.26927537244512!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487b0ccb066c7c8d%3A0x1b1af82a4c4d4e0!2sSt%20Helens%2C%20UK!5e0!3m2!1sen!2sus!4v1711234567890!5m2!1sen!2sus" 
+                            width="100%" 
+                            height="100%" 
+                            style="min-height: 400px;"
+                            allowfullscreen="" 
+                            loading="lazy" 
+                            referrerpolicy="no-referrer-when-downgrade"
+                            class="rounded-lg">
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-6 sm:py-8">
+        <div class="container mx-auto px-4 sm:px-6 text-center">
+            <div class="mb-3 sm:mb-4">
+                <a href="#home" class="text-xl sm:text-2xl font-bold">
+                    <span class="text-amber-500">Fast Fix</span> Automotive
+                </a>
+            </div>
+            <div class="flex justify-center space-x-4 sm:space-x-6 mb-4 sm:mb-6">
+                <a href="#home" class="hover:text-amber-500 transition duration-300 text-sm sm:text-base">Home</a>
+                <a href="#about" class="hover:text-amber-500 transition duration-300 text-sm sm:text-base">About</a>
+                <a href="#services" class="hover:text-amber-500 transition duration-300 text-sm sm:text-base">Services</a>
+                <a href="#reviews" class="hover:text-amber-500 transition duration-300 text-sm sm:text-base">Reviews</a>
+                <a href="#contact" class="hover:text-amber-500 transition duration-300 text-sm sm:text-base">Contact</a>
+            </div>
+            <div class="text-gray-400 text-xs sm:text-sm">
+                © 2024 by Fast Fix Automotive. All rights reserved.
+            </div>
+        </div>
+    </footer>
+
+  <script src="style.js"></script>
+  
+  </body>
+</html>
